@@ -1,19 +1,33 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://miki164.github.io",
     title: "JimmysGarden",
   },
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-sitemap",
-    "gatsby-plugin-mdx",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: "gatsby-plugin-mdx",
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        extensions: [`.md`, `.mdx`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: "gatsby-remark-double-brackets-link",
+            options: {
+              titleToURLPath: `${__dirname}/resolve-url.js`,
+              stripBrackets: true,
+            },
+          },
+        ]
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notes`,
+        path: `${__dirname}/content/`,
       },
-      __key: "pages",
+      __key: `notes`,
     },
   ],
 };
