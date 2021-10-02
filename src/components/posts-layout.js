@@ -1,11 +1,14 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import Layout from './layout';
 
 export default function PostLayout({ data }) {
     return (  
         <>
+        <Layout>
         <MDXRenderer>{data.mdx.body}</MDXRenderer>
+        </Layout>
         </>
     );
 }

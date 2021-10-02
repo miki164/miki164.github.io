@@ -4,7 +4,6 @@ module.exports = {
     title: "JimmysGarden",
   },
   plugins: [
-    "gatsby-plugin-sass",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-mdx",
@@ -16,6 +15,7 @@ module.exports = {
             options: {
               titleToURLPath: `${__dirname}/resolve-url.js`,
               stripBrackets: true,
+              parseWikiLinks: true
             },
           },
         ]
