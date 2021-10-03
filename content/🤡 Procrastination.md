@@ -26,6 +26,6 @@ That procrastinator feels guilty of that he postpones his work or how he works.
 * Lack of [[😊 Motivation]]
 
 References:
-* [[👨‍💼Inaczej]]
+* [[🦄 Inaczej]]
 
 status: #💭empty-idea

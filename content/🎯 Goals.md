@@ -34,6 +34,6 @@ Goals focused on our internal feelings and goals such as:
 |**Colorless**|Values|Quarter goals |
 
 
-References: [[👨‍💼Inaczej]]
+References: [[🦄 Inaczej]]
 
 status: #➡️to-expand 

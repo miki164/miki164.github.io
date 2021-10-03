@@ -1,4 +1,5 @@
 ---
+title: "Zetelkasten system"
 aliases: []
 tags: []
 date: 2021-09-26
