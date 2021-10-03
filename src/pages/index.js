@@ -11,15 +11,11 @@ const Home = () => {
       </h1>
       <p>
         I'm Jimmy and that's my <a href="/notes/Digital-Garden">garden</a>. I'm going to share my knowladge and thoughts
-        here.
-        It would grow every day (I hope).
-        Of course I'm inviting you o
-        It is build using gatsbyjs plus gatsby-plugin-mdx. Besides of that, I'm creating markdown notes in obsidian. I
-        n
+        here. It would grow every day (I hope). Of course I'm inviting you to see
         <a href="https://github.com/miki164/jimmys-garden"> github repo of the garden</a>.
       </p>
         <h1>
-          How garden is build
+          How garden was builded
         </h1>
         <p>
           It is build using gatsbyjs plus gatsby-plugin-mdx. Besides of that, I'm creating markdown notes in obsidian. I
