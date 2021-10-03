@@ -34,5 +34,5 @@ When are you going to do that?
 
 Technically we can use only SAR. Specific, achieveble and realistic.
 
-References: [[👨‍💼Inaczej]] p.88
+References: [[🦄 Inaczej]] p.88
 status: #➡️to-expand  

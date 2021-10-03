@@ -19,5 +19,5 @@ The flow state is the moment when I am fully focused on task and that what I'm d
 
 I have to be advised about potential addiction
 
-The flow connects with Japanese [[Ikigai]] [[👨‍💼Inaczej]] p.56
+The flow connects with Japanese [[Ikigai]] [[🦄 Inaczej]] p.56
 References: [Wiki](https://en.m.wikipedia.org/wiki/Flow_(psychology))

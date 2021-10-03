@@ -15,5 +15,5 @@ That motivation is induce by environment like money, reputation.
 
 When we connect those to motivation types our creativity could be damaged. We could resigned from activities that we had liked. It's called [[⛏️ Undermining effect]]
 
-References: [[👨‍💼Inaczej]]
+References: [[🦄 Inaczej]]
 status: #💭empty-idea

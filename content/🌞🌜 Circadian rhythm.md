@@ -6,6 +6,10 @@ date: 2021-10-01
 ---
 2021-10-01
 # 🌞🌜 Circadian rhythm
-Related: 
 ___
-status: #💭empty-idea
+
+**Circadian rhythm** is a 24 hour cycleof physical, mental and behavioral changes
+
+Circadian rhythm affects [[Hormone]] release, [[🍞 Eating habits]],  and [[Sleep]]
+
+status: #➡️to-expand 
