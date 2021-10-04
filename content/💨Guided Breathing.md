@@ -8,7 +8,7 @@ date: 2021-09-29
 # 💨Guided Breathing
 ___
 
-It's type of meditation where you have to focus on your breath.
+It's type of [[🧘 Meditation]]where you have to focus on your breath.
 
 1. Sit comfortable
 2. Draw attention to physical sensetion of breath
