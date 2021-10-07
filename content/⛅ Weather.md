@@ -1,6 +1,6 @@
 ---
 title: "⛅ Weather"
-aliases: []
+aliases: [💭empty-idea]
 tags: []
 date: 2021-10-01
 ---
@@ -8,4 +8,3 @@ date: 2021-10-01
 # ⛅ Weather
 Related:
 ___
-status: #💭empty-idea

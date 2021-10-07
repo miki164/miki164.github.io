@@ -1,7 +1,7 @@
 ---
 title: "💨Guided Breathing"
 aliases: []
-tags: []
+tags: [➡️to-expand]
 date: 2021-09-29
 ---
 2021-09-29
@@ -21,5 +21,3 @@ It's type of [[🧘 Meditation]]where you have to focus on your breath.
 
 [3-minute mindful breathing](https://youtu.be/SEfs5TJZ6Nk)
 [mindful.org](https://www.mindful.org/guided-breathing-meditation-cultivate-awareness/)
-
-status: #➡️to-expand
