@@ -5,6 +5,8 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-catch-links",
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
     {
       resolve: "gatsby-plugin-mdx",
       options: {
@@ -18,6 +20,12 @@ module.exports = {
               parseWikiLinks: true
             },
           },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          }
         ]
       }
     },
