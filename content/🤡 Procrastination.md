@@ -1,7 +1,7 @@
 ---
 title: "🤡 Procrastination"
 aliases: []
-tags: []
+tags: [💭empty-idea]
 date: 2021-09-29
 ---
 2021-09-29
@@ -27,5 +27,3 @@ That procrastinator feels guilty of that he postpones his work or how he works.
 
 References:
 * [[🦄 Inaczej]]
-
-status: #💭empty-idea

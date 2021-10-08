@@ -1,6 +1,6 @@
 ---
 title: "🦉🐦 Chronotype"
-aliases: []
+aliases: [💭empty-idea]
 tags: [biology, health, biohacking]
 date: 2021-10-01
 ---
@@ -21,4 +21,3 @@ The wolf is most productive at night.
 
 References:
 [Wikipedia](https://en.wikipedia.org/wiki/Chronotype)
-status: #💭empty-idea

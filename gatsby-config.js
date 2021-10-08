@@ -4,7 +4,7 @@ module.exports = {
     title: "JimmysGarden",
   },
   plugins: [
-    "gatsby-plugin-sitemap",
+    "gatsby-plugin-catch-links",
     {
       resolve: "gatsby-plugin-mdx",
       options: {

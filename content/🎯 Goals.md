@@ -1,7 +1,7 @@
 ---
 title: "🎯 Goals"
 aliases: []
-tags: []
+tags: [➡️to-expand ]
 date: 2021-09-29
 ---
 2021-09-29
@@ -35,5 +35,3 @@ Goals focused on our internal feelings and goals such as:
 
 
 References: [[🦄 Inaczej]]
-
-status: #➡️to-expand 

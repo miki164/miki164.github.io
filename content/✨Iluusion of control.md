@@ -1,10 +1,9 @@
 ---
 title: "Iluusion of control"
 aliases: []
-tags: []
+tags: [💭empty-idea]
 date: 2021-09-29
 ---
 2021-09-29
 # Iluusion of control
 ___
-status: #💭empty-idea 

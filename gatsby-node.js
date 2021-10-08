@@ -1,24 +1,29 @@
 const path = require("path")
 
-exports.createPages = async ({ graphql, actions}) => {
-    const { data } = await graphql(`
+exports.createPages = async ({graphql, actions}) => {
+  const {data} = await graphql(`
         query Notes {
             allMdx {
-                edges {
-                    node {
-                        id,
-                        slug
-                    }
+              nodes {
+                slug
+                id
+                frontmatter {
+                  title
                 }
+              }
            }
-        } 
+        }
     `)
 
-    data.allMdx.edges.forEach(edge => {
-        actions.createPage({
-            path: `/notes/${edge.node.slug}`,
-            component: path.resolve('./src/components/posts-layout.js'),
-            context: {id: edge.node.id}
-        })
+  data.allMdx.nodes.forEach(node => {
+    actions.createPage({
+      path: `/notes/${node.slug}`,
+      component: path.resolve('./src/components/posts-layout.js'),
+      context: {
+        id: node.id,
+        titleRegex: "/" + node.frontmatter.title + "/",
+        slug: node.slug
+      }
     })
+  })
 }

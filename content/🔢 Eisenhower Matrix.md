@@ -1,7 +1,7 @@
 ---
 title: "🔢 Eisenhower Matrix"
 aliases: []
-tags: []
+tags: [💭empty-idea ]
 date: 2021-10-02
 ---
 2021-10-02
@@ -21,5 +21,3 @@ All tasks from that group should be done **IMMEDIATELY**
 ### Dealing with Urgent and not Important group️ ⚠️
 
 ### Dealing with not Urgent and not Important group️ 
-
-status: #💭empty-idea 

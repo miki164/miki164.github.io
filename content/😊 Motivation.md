@@ -1,7 +1,7 @@
 ---
 title: "😊 Motivation"
 aliases: []
-tags: []
+tags: [💭empty-idea]
 date: 2021-09-28
 ---
 2021-09-28
@@ -16,4 +16,3 @@ That motivation is induce by environment like money, reputation.
 When we connect those to motivation types our creativity could be damaged. We could resigned from activities that we had liked. It's called [[⛏️ Undermining effect]]
 
 References: [[🦄 Inaczej]]
-status: #💭empty-idea
