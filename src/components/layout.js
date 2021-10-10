@@ -1,11 +1,11 @@
 import React from 'react';
-import "../styles/global.css";
+import * as styles from "../styles/layout.module.css";
 
 const Layout =({children}) =>{
     return(
         <>
         <header>
-            <a id="logo" href="/"><span id="text-logo">Jimmys Garden</span>🌱🪴</a>
+            <a id={styles.logo} href="/"><span id={styles.logotext}>Jimmys Garden</span>🌱🪴</a>
         </header>
         <main>{children}</main>
         <footer>

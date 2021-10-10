@@ -1,10 +1,9 @@
 ---
 title: "Zetelkasten system"
 aliases: []
-tags: []
+tags: [💭empty-idea]
 date: 2021-09-26
 ---
 2021-09-26
 # Zetelkasten system
 ___
-status: #💭empty-idea

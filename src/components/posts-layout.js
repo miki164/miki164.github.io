@@ -3,13 +3,13 @@ import React from 'react';
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import Layout from './layout';
 import Backlinks from "./backlinks";
+import "../styles/posts-layout.module.css";
 
 export default function PostLayout({ data }) {
     return (
         <>
           <Layout>
             <MDXRenderer>{data.mdx.body}</MDXRenderer>
-
             <Backlinks links={data.allMdx.nodes}/>
           </Layout>
         </>

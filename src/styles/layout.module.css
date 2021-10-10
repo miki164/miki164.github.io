@@ -1,0 +1,23 @@
+main {
+  margin: 20px;
+}
+
+footer {
+  border-top: black solid 1px;
+  padding: 20px;
+}
+
+header, footer {
+  border-bottom: solid 1px black;
+  padding: 20px;
+}
+
+#logo {
+  font-size: 4ch;
+  color: black;
+}
+
+#logotext {
+  font-style: italic;
+  font-weight: 900;
+}
