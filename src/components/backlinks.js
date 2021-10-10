@@ -5,8 +5,8 @@ export default class Backlinks extends React.Component {
   render() {
     if (this.props.links.length !== 0) {
       return (<>
+          <h3>Backlinks:</h3>
           <ul>
-            <h2>Backlinks:</h2>
             {this.props.links.map((link, idx) => {
               return (
                 <li key={idx}>

@@ -6,7 +6,7 @@ tags: [psychology, positive-psychology]
 2021-09-24
 # Flow
 ___
-The flow state is the moment when I am fully focused on task and that what I'm doing. During the flow time slows down and I'm free from any distraction.
+The flow state is the moment when I am fully focused on task and that what I'm doing. During the flow time slows down and I'm free from any [[📳 Distractors|distraction]].
 
 ## Benefits of being in flow state
 * Makes things more enjoyable

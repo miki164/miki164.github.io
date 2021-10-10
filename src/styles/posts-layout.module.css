@@ -1,0 +1,9 @@
+td, table, th {
+  border: solid 1px black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+hr {
+  border: none;
+}
