@@ -10,15 +10,15 @@ const Home = () => {
         Hello my friend from internet
       </h1>
       <p>
-        I'm Jimmy and that's my <a href="/notes/Digital-Garden">garden</a>. I'm going to share my knowladge and thoughts
+        I'm Jimmy and that's my <a href="/notes/Digital-Garden">garden</a>. I'm going to share my knowledge and thoughts
         here. It would grow every day (I hope). Of course I'm inviting you to see
         <a href="https://github.com/miki164/jimmys-garden"> github repo of the garden</a>.
       </p>
       <h1>
-        How garden was builded
+        How garden was built
       </h1>
       <p>
-        It is build using gatsbyjs plus gatsby-plugin-mdx. Besides of that, I'm creating markdown notes in obsidian. I
+        It is build using gatsbyjs plus gatsby-plugin-mdx. Besides that, I'm creating markdown notes in obsidian. I
         will be posting here everything what I'm learning. You will find here notes about software development,
         psychology, hardware development, books (Disclaimer you could find here mainly polish literature :p) and many
         more.
@@ -36,7 +36,7 @@ const Home = () => {
         Start exploring
       </h1>
       <p>
-        Here is a few start points for you. Have fun!
+        Here are a few start points for you. Have fun!
       </p>
       <ul>
         <li><Link href="/notes/Digital-Garden">What is it digital garden?</Link></li>

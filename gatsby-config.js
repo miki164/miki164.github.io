@@ -2,10 +2,13 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://miki164.github.io",
     title: "JimmysGarden",
+    description: "The garden of knowledge and thoughts",
+    titleTemplate: "%s"
   },
   plugins: [
     "gatsby-plugin-catch-links",
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-remark-images`,
     {
       resolve: "gatsby-plugin-mdx",

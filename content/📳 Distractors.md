@@ -12,7 +12,7 @@ Distractors are things in your environment which distracts you when you are doin
 Eliminating Distractors is discussed in [[🦄 Inaczej]] and it's way to increase the [[🏭 Productivity]]
 
 ## My Distractors 👺 and how I'm trying to deal with 'em 🗡️
-#### 📳 Smartphone
+#### 📳 Smartphone 
 it's the biggest enemy of many people. Smartphones software are specially designed to attract our attention.
 
 This devices make us harder to maintain focused on things we are currently do.
@@ -26,7 +26,7 @@ Few tips to eliminate smartphones from live:
 
 
 #### Social media 👥
-Social media are very good in distracting us. They are very addictive.
+Social media are very good in distracting us. They are very addictive. 
 
 * Decrease your activity in social media
 * Look how much time you spent online
@@ -37,11 +37,11 @@ Social media are very good in distracting us. They are very addictive.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fkIygLMFcI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-What can you gain on social media detox? On my example I can say you will more focused, productive and relaxed. It's good for your mental health as well.
+What can you gain on social media detox? On my example I can say you will more focused, productive and relaxed. It's good for your mental health as well. 
 
 *I'm now facebook/snapchat/instagram free from 3 months! It's awsome! I'm using only youtube and messenger.*
 
-<iframe src="https://www.youtube-nocookie.com/embed/Czg_9C7gw0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Czg_9C7gw0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Other people
 I think everyone know the feeling when someone enters to your room/office and wants something from you. For example your parents wants you to eat meal... you propably thinks in that moment: "My gosh I've just started doing something productive". and after delicious meal your determination and creativity disapears...
