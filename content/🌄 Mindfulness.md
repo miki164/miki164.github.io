@@ -1,6 +1,6 @@
 ---
 title: "Mindfulness"
-aliases: []
+aliases: [🌄 Mindfulness meditation]
 tags: [psychology, health]
 ---
 2021-09-24
@@ -8,7 +8,7 @@ tags: [psychology, health]
 ___
 
 ### What is it?
-It's abillity to be fully present and awere of place where we are. Resarches show that can decrease stress and negative mood states. It's affect on our physical helath as well.
+It's [[🧘 Meditation]] technique, which allow us to be fully present and awere of place where we are. Resarches show that can decrease stress and negative mood states. It's affect on our physical helath as well.
 
 To do Mindfulness we can use many techniques such as:
 * [[💨Guided Breathing]]

@@ -26,7 +26,3 @@ if __name__ == "__main__":
 
     SOURCE_PATH = "../notes/🧠 My knowledge/"
     get_all_files(SOURCE_PATH, CONTENT_PATH)
-    SOURCE_PATH = "../notes/📖 Books/"
-    get_all_files(SOURCE_PATH, CONTENT_PATH)
-    SOURCE_PATH = "../notes/📷 Photos"
-    get_all_files(SOURCE_PATH, CONTENT_PATH)
