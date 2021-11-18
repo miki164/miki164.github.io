@@ -10,7 +10,7 @@ export default class Backlinks extends React.Component {
             {this.props.links.map((link, idx) => {
               return (
                 <li key={idx}>
-                  <Link to={"/notes/" + link.slug}>{link.slug}</Link>
+                  <Link to={"/" + link.slug}>{link.frontmatter.title}</Link>
                 </li>
               )
             })}

@@ -12,6 +12,6 @@ ___
 
 - Silent to-do list consists of all messages that things sends to us
 - If we have too long list, things starts to fighting for our attention. The easiest thing to do is ignoring them, then we're getting unmotivated
-- Mnimalism is not about getting rid of everything but about eliminating istractions
+- Mnimalism is not about getting rid of everything but about eliminating distractions
 - Open space brings feeling of calm
 - Shaping environment is very powerfull. It brings us habits, that allows to be more focused
