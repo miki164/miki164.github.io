@@ -1,7 +1,7 @@
 ---
 title: "🚶Walking Meditation"
 aliases: []
-tags: []
+tags: [to-expand ]
 date: 2021-09-29
 ---
 2021-09-29
@@ -24,5 +24,3 @@ The key of this meditation is to be focus **HOW YOU MOVE**, in the opposite of t
 
 References:
 [Mindworks](https://mindworks.org/blog/what-is-walking-meditation/)
-
-status: #➡️to-expand 

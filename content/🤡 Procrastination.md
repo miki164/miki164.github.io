@@ -24,6 +24,3 @@ That procrastinator feels guilty of that he postpones his work or how he works.
 
 ### Reasons why procrastination exists
 * Lack of [[😊 Motivation]]
-
-References:
-* [[🦄 Inaczej]]

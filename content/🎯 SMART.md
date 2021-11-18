@@ -1,7 +1,7 @@
 ---
 title: "SMART Goals"
 aliases: [SMART goals]
-tags: [➡️to-expand  ]
+tags: [️to-expand]
 date: 2021-09-25
 ---
 2021-09-25
@@ -17,6 +17,7 @@ Can you measure your progress.
 
 > [[👁️Innattentional blidness|Be aware of too specific goals]]
 > [[😶Goal neglected|Focus on main goals]]
+
 ### ACHIEVABLE
 Can you achieve the goal?
 

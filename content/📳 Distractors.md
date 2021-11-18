@@ -1,16 +1,15 @@
 ---
 title: "📳 Distractors"
 aliases: []
-tags: [➡️to-expand]
+tags: [️to-expand]
 date: 2021-10-03
 ---
 🌱 2021-10-03
 # 📳 Distractors
 ___
-Distractors are things in your environment which distracts you when you are doing things. When we combine many distractorswe will have a [[🔗 Chain of distraction]]
+Distractors are things in your environment which distracts you when you are doing things.
 
-Eliminating Distractors is discussed in [[🦄 Inaczej]] and it's way to increase the [[🏭 Productivity]]
-
+Eliminating distractors is good way to increase your [[🏭 Productivity]]
 ## My Distractors 👺 and how I'm trying to deal with 'em 🗡️
 #### 📳 Smartphone 
 it's the biggest enemy of many people. Smartphones software are specially designed to attract our attention.

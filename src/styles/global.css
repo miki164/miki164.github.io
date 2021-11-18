@@ -21,7 +21,7 @@ p {
 }
 
 li {
-  font-size: 1.3em;
+  font-size: 20.8px;
 }
 
 ul, ol {
@@ -70,4 +70,10 @@ h6 {
 
 a {
   text-decoration: none;
+}
+
+blockquote {
+  border: dotted;
+  background-color: rgb(208, 208, 208);
+  font-size: 1.05em;
 }
