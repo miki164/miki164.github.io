@@ -16,7 +16,7 @@ const NotesList = ({data}) => {
         {data.allMdx.edges.map((d, idx) => {
           return (
             <li>
-              <Link to={"/notes/" + d.node.slug} key={idx}>
+              <Link to={"/" + d.node.slug} key={idx}>
                 {d.node.frontmatter.title}
               </Link>
             </li>)

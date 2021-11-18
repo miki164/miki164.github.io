@@ -1,19 +1,22 @@
-import { graphql } from 'gatsby';
+import {graphql} from 'gatsby';
 import React from 'react';
-import { MDXRenderer } from "gatsby-plugin-mdx";
+import {MDXRenderer} from "gatsby-plugin-mdx";
 import Layout from './layout';
 import Backlinks from "./backlinks";
 import "../styles/posts-layout.module.css";
 
-export default function PostLayout({ data }) {
-    return (
-        <>
-          <Layout>
-            <MDXRenderer>{data.mdx.body}</MDXRenderer>
-            <Backlinks links={data.allMdx.nodes}/>
-          </Layout>
-        </>
-    );
+export default function PostLayout({data, pageContext}) {
+  const {slug} = pageContext;
+  return (
+    <>
+      <Layout>
+        <MDXRenderer>{data.mdx.body}</MDXRenderer>
+        {slug &&
+        <Backlinks links={data.allMdx.nodes}/>
+        }
+      </Layout>
+    </>
+  );
 }
 
 export const query = graphql`
@@ -24,7 +27,10 @@ query Note($id: String, $titleRegex: String!, $slug: String) {
   }
   allMdx(filter: {rawBody: {regex: $titleRegex}, slug: {ne: $slug}}) {
     nodes {
-      slug
+      slug,
+      frontmatter {
+        title
+       }
     }
   }
 }
