@@ -3,7 +3,7 @@ import shutil
 import os
 
 CONTENT_PATH = "./content/"
-IGNORED_FILES = [".stignore"]
+IGNORED_FILES = [".stignore", "Photos"]
 def get_all_files(path: str, destination_folder: str) -> None:
     for file_name in os.listdir(path):
         source = path + file_name
@@ -31,3 +31,6 @@ if __name__ == "__main__":
 
     SOURCE_PATH = "../notes/🧠 My knowledge/"
     get_all_files(SOURCE_PATH, CONTENT_PATH)
+
+    SOURCE_PATH = "../notes/🧠 My knowledge/Photos/"
+    get_all_files(SOURCE_PATH, './static/')
