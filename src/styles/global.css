@@ -76,4 +76,10 @@ blockquote {
   border: dotted;
   background-color: rgb(208, 208, 208);
   font-size: 1.05em;
+  max-width: 800px;
+}
+
+img {
+  width: 95%;
+  max-width: 800px;
 }
