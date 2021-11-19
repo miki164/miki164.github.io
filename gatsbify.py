@@ -14,7 +14,6 @@ def change_image_brackets(f) -> None:
           continue
       new_content.append(line)
 
-   print(new_content)
    f.seek(0)
    f.writelines(new_content)
 
