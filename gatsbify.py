@@ -10,7 +10,7 @@ def change_image_brackets(f) -> None:
    for line in f.readlines():
       if result := regex.search(line):
           image = result.groups()[0]
-          new_content.append("![{}]({})\n\n".format(image, image))
+          new_content.append("![{}](/{})\n\n".format(image, image))
           continue
       new_content.append(line)
 
