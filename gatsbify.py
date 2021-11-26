@@ -12,6 +12,7 @@ def change_image_brackets(f) -> None:
           image = result.groups()[0]
           new_content.append("![{}](/{})\n\n".format(image, image))
           continue
+
       new_content.append(line)
 
    f.seek(0)
