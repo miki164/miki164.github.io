@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+    --primary1: #D8E8F5;
+    --primary2: #b5d3ec;
+    --primary3: #4795d3;
+    --background: #fdfdfd;
+    --font: #75afde;
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--background);
+}
+
+header {
+    padding: 2%;
+    background-color: var(--primary1);
+    border: none;
+}
+
+header > h6 {
+    color: var(--font);
+}
+
+#contact {
+    padding: 2%;
+    background-color: var(--primary2);
+}
+
+h1, h1 {
+    font-size: 33px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    color: var(--font);
+}
+
+.dot-full, .dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5%;
+    border: 5px solid var(--primary3);
+}
+
+.dot-full {
+    background-color: var(--primary3);
+}
+
+main {
+    align-items: center;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+section {
+    flex-basis: 25%;
+    max-width: 50%;
+}
+section > div > p {
+    max-width: 75%;
+}
