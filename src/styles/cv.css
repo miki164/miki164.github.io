@@ -10,8 +10,9 @@
     background-color: var(--background);
 }
 
+/* Header */
 header {
-    padding: 2%;
+    padding: 2vh;
     background-color: var(--primary1);
     border: none;
 }
@@ -20,12 +21,8 @@ header > h6 {
     color: var(--font);
 }
 
-#contact {
-    padding: 2%;
-    background-color: var(--primary2);
-}
 
-h1, h1 {
+h1 {
     font-size: 33px;
 }
 
@@ -35,6 +32,52 @@ h2 {
     color: var(--font);
 }
 
+p {
+    text-align: left;
+    padding: 0.5vh 0;
+}
+
+/* Send email button */
+#contact {
+    background-color: var(--primary2);
+    padding: 2vh;
+}
+
+#contact > a {
+    text-decoration: none;
+    background-color: var(--primary3);
+    font-size: 1.2em;
+    color: #000;
+    padding: 1vh;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+#contact > a:hover {
+    opacity: 0.5;
+}
+
+/* Flexbox */
+main {
+    margin: 0;
+}
+#container {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 3vh;
+}
+section {
+    flex-basis: 50%;
+    max-width: 100%;
+    min-width: 500px;
+}
+section > div > p {
+    max-width: 75%;
+}
+
+
+/* Dots */
 .dot-full, .dot {
     height: 15px;
     width: 15px;
@@ -48,18 +91,17 @@ h2 {
     background-color: var(--primary3);
 }
 
-main {
-    align-items: center;
+.dot-box {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 0.5vw;
 }
-#container {
+#skills {
     display: flex;
     flex-wrap: wrap;
-    padding: 2%;
+    column-gap: 2vh;
 }
-section {
-    flex-basis: 25%;
-    max-width: 50%;
-}
-section > div > p {
-    max-width: 75%;
+
+#skills > div {
+    flex-basis: 40%;
 }
