@@ -13,9 +13,9 @@
     :root {
         /* Dark theme */
         --background1: #373a3d;
-        --background2: #2c2b2b;
-        --font: #75afde;
-        --font-secondary: #fdfdfd;
+        --background2: #343434;
+        --font: #9ec0dc;
+        --font-secondary: #f1ecec;
     }
 }
 
@@ -75,7 +75,7 @@ section > div > p {
     width: 15px;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 0.5%;
+    margin-right: 0.1vw;
     border: 3px solid var(--font);
 }
 
@@ -87,13 +87,13 @@ section > div > p {
     display: flex;
     flex-wrap: nowrap;
     column-gap: 0.4vw;
-    padding: 0.4vh 0;
+    padding: 0.8vh 0;
 }
 
 #skills {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 2vh;
+    column-gap: 1vh;
 }
 
 #skills > div {

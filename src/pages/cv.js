@@ -103,10 +103,11 @@ const Projects = () => {
     return (
         <section>
             <h2>Projects</h2>
-            <h6>GitHub</h6>
-            <p>Open source contribution and side projects</p>
-            <a href="https://github.com/miki164/">https://elektronik.rzeszow.pl</a>
-            <p><i>(September 24, 2017 - Present)</i></p>
+            <div className="overview">
+                <h6>GitHub</h6>
+                <p>Open source contribution and side projects (September 24, 2017 - Present)</p>
+                <a href="https://github.com/miki164/">https://github.com/miki164</a>
+            </div>
         </section>
     )
 }
@@ -148,13 +149,12 @@ const cv = () => {
 
             <main>
                 <div id="container">
-                    <Education/>
-                    <Skills/>
                     <Experience/>
+                    <Skills/>
+                    <Education/>
                     <Projects/>
                 </div>
             </main>
-            <Rodo/>
         </div>
     )
 }
