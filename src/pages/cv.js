@@ -6,16 +6,18 @@ const Experience = () => {
         <section>
             <h2>WORK EXPERIENCE</h2>
             <div>
-                <h6>MIŚCON - Przemyski Konwent Gier i Fantastyki</h6>
-                <p><b>Chief Technology Officer</b></p>
-                <p><i>(May 31, 2020 - Present)</i></p>
+                <div className="overview">
+                    <h6>MIŚCON - Przemyski Konwent Gier i Fantastyki</h6>
+                    <p>Chief Technology Officer (May 31, 2020 - Present)</p>
+                </div>
                 <p>Managing of IT solutions in association. Designing and implementing website using ReactJS.</p>
             </div>
             <div>
-                <h6>Stowarzyszenie Umarłych Statutów</h6>
-                <p><b>Backend Python Developer</b></p>
-                <p><i>(September 01, 2021 - Present)</i></p>
-                <p><a href="https://umarlestatuty.pl">https://umarlestatuty.pl/</a></p>
+                <div className="overview">
+                    <h6>Stowarzyszenie Umarłych Statutów</h6>
+                    <p>Backend Python Developer (September 01, 2021 - Present)</p>
+                    <a href="https://umarlestatuty.pl">https://umarlestatuty.pl/</a>
+                </div>
                 <p>Designing infrastructure and implementing REST API using Django Rest Framework and PostgresSQL.</p>
             </div>
         </section>
@@ -76,10 +78,11 @@ const Education = () => {
     return (
         <section>
             <h2>EDUCATION</h2>
-            <h6>Zespół Szkół Elektronicznych w Rzeszowie</h6>
-            <p>Technik Elektronik</p>
-            <p><i>(September 01, 2019 - Present)</i></p>
-            <a href="https://elektronik.rzeszow.pl/">https://elektronik.rzeszow.pl</a>
+            <div className="overview">
+                <h6>Zespół Szkół Elektronicznych w Rzeszowie</h6>
+                <p>Technik Elektronik (September 01, 2019 - Present)</p>
+                <a href="https://elektronik.rzeszow.pl/">https://elektronik.rzeszow.pl</a>
+            </div>
         </section>
     )
 }
@@ -143,16 +146,12 @@ const cv = () => {
                     work NGOs member.</p>
             </header>
 
-            <div id="contact">
-                <a href=" mailto: datamikolaj@protonmail.com">Send Mail to me!</a>
-            </div>
             <main>
                 <div id="container">
                     <Education/>
                     <Skills/>
                     <Experience/>
                     <Projects/>
-                    <Interests/>
                 </div>
             </main>
             <Rodo/>

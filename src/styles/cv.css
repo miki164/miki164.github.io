@@ -1,25 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 :root {
     /* Light theme */
-    --primary1: #D8E8F5;
-    --primary2: #b5d3ec;
-    --primary3: #4795d3;
-    --background: #fdfdfd;
-    --font: #75afde;
+    --background1: #D8E8F5;
+    --background2: #fdfdfd;
+    --font: #4795d3;
     --font-secondary: #121212;
 
-    font-family: "Open Sans", sans-serif;
-    background-color: var(--background);
+    font-family: Arial, sans-serif;
+    background-color: var(--background2);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         /* Dark theme */
-        --primary1: #373a3d;
-        --primary2: #3b3f48;
-        --primary3: #4795d3;
-        --background: #2c2b2b;
+        --background1: #373a3d;
+        --background2: #2c2b2b;
         --font: #75afde;
         --font-secondary: #fdfdfd;
     }
@@ -27,70 +21,38 @@
 
 /* Header */
 header {
-    padding: 2vh;
-    background-color: var(--primary1);
+    padding: 3vh;
+    background-color: var(--background1);
     border: none;
 }
 
-header > h6 {
+/* General */
+h2, a {
     color: var(--font);
+    margin: 0;
 }
 
-
-h1 {
-    font-size: 33px;
+h1, h6, p, footer {
     color: var(--font-secondary);
-}
-
-h2 {
-    text-decoration: underline;
-    text-decoration-thickness: 0.1em;
-    color: var(--font);
-}
-
-h6 {
-    color: var(--font-secondary);
+    margin: 0;
 }
 
 p {
     text-align: left;
-    padding: 0.5vh 0;
-    color: var(--font-secondary);
+    padding: 0;
+    font-size: 1em;
 }
 
-a {
-    color: var(--font);
+.overview {
+    padding: 0.8vh 0;
 }
-footer {
-    color: var(--font-secondary);
-}
-/* Send email button */
-#contact {
-    background-color: var(--primary2);
-    padding: 2vh;
-}
-
-#contact > a {
-    text-decoration: none;
-    background-color: var(--primary3);
-    font-size: 1.2em;
-    color: #000;
-    padding: 1vh;
-    border-radius: 25px;
-    transition: 0.3s;
-}
-
-#contact > a:hover {
-    opacity: 0.5;
-}
-
 /* Flexbox */
 main {
     margin: 0;
 }
 
 #container {
-    padding: 2%;
+    padding: 3vh;
     display: flex;
     flex-wrap: wrap;
     row-gap: 3vh;
@@ -114,17 +76,18 @@ section > div > p {
     border-radius: 50%;
     display: inline-block;
     margin-right: 0.5%;
-    border: 5px solid var(--primary3);
+    border: 3px solid var(--font);
 }
 
 .dot-full {
-    background-color: var(--primary3);
+    background-color: var(--font);
 }
 
 .dot-box {
     display: flex;
     flex-wrap: nowrap;
-    column-gap: 0.5vw;
+    column-gap: 0.4vw;
+    padding: 0.4vh 0;
 }
 
 #skills {
