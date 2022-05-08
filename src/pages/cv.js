@@ -1,12 +1,12 @@
 import * as React from "react"
-import '../styles/cv.css'
+import { withPrefix } from "gatsby-link"
 
 const Experience = () => {
     return (
         <section>
             <h2>WORK EXPERIENCE</h2>
             <div>
-                <h6>MIŚĆON - Przemyski Konwent Gier i Fantastyki</h6>
+                <h6>MIŚCON - Przemyski Konwent Gier i Fantastyki</h6>
                 <p><b>Chief Technology Officer</b></p>
                 <p><i>(May 31, 2020 - Present)</i></p>
                 <p>Managing of IT solutions in association. Designing and implementing website using ReactJS.</p>
@@ -144,8 +144,12 @@ const Rodo = () => {
     )
 }
 const cv = () => {
+    if (window.location.pathname === withPrefix ("/cv")){
+        require("../styles/cv.css")
+    }
+
     return (
-        <>
+        <div>
             <header>
                 <h1>Mikołaj Data</h1>
                 <h6>Python Developer</h6>
@@ -169,7 +173,7 @@ const cv = () => {
                 </div>
             </main>
             <Rodo/>
-        </>
+        </div>
     )
 }
 export default cv;

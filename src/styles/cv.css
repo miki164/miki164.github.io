@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 :root {
+    /* Light theme */
     --primary1: #D8E8F5;
     --primary2: #b5d3ec;
     --primary3: #4795d3;
     --background: #fdfdfd;
     --font: #75afde;
+    --font-secondary: #121212;
+
     font-family: "Open Sans", sans-serif;
     background-color: var(--background);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark theme */
+        --primary1: #373a3d;
+        --primary2: #3b3f48;
+        --primary3: #4795d3;
+        --background: #2c2b2b;
+        --font: #75afde;
+        --font-secondary: #fdfdfd;
+    }
 }
 
 /* Header */
@@ -24,6 +39,7 @@ header > h6 {
 
 h1 {
     font-size: 33px;
+    color: var(--font-secondary);
 }
 
 h2 {
@@ -32,11 +48,22 @@ h2 {
     color: var(--font);
 }
 
+h6 {
+    color: var(--font-secondary);
+}
+
 p {
     text-align: left;
     padding: 0.5vh 0;
+    color: var(--font-secondary);
 }
 
+a {
+    color: var(--font);
+}
+footer {
+    color: var(--font-secondary);
+}
 /* Send email button */
 #contact {
     background-color: var(--primary2);
@@ -52,6 +79,7 @@ p {
     border-radius: 25px;
     transition: 0.3s;
 }
+
 #contact > a:hover {
     opacity: 0.5;
 }
@@ -60,6 +88,7 @@ p {
 main {
     margin: 0;
 }
+
 #container {
     padding: 2%;
     display: flex;
@@ -67,11 +96,13 @@ main {
     justify-content: center;
     row-gap: 3vh;
 }
+
 section {
     flex-basis: 50%;
     max-width: 100%;
     min-width: 500px;
 }
+
 section > div > p {
     max-width: 75%;
 }
@@ -96,6 +127,7 @@ section > div > p {
     flex-wrap: nowrap;
     column-gap: 0.5vw;
 }
+
 #skills {
     display: flex;
     flex-wrap: wrap;
@@ -104,4 +136,16 @@ section > div > p {
 
 #skills > div {
     flex-basis: 40%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    section {
+        flex-basis: 100%;
+        min-width: 100%;
+    }
+
+    #skills > div {
+        flex-basis: 100%;
+    }
 }
