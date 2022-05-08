@@ -1,5 +1,5 @@
 import * as React from "react"
-import { withPrefix } from "gatsby-link"
+import '../styles/cv.css'
 
 const Experience = () => {
     return (
@@ -108,18 +108,6 @@ const Projects = () => {
     )
 }
 
-const Languages = () => {
-    return (
-        <section>
-            <h2>LANGUAGES</h2>
-            <p><b>Polish</b></p>
-            <p>Native</p>
-            <p><b>English</b></p>
-            <p>Communicative</p>
-        </section>
-    )
-}
-
 const Rodo = () => {
     return (
         <footer>
@@ -144,10 +132,6 @@ const Rodo = () => {
     )
 }
 const cv = () => {
-    if (window.location.pathname === withPrefix ("/cv")){
-        require("../styles/cv.css")
-    }
-
     return (
         <div>
             <header>
@@ -168,7 +152,6 @@ const cv = () => {
                     <Skills/>
                     <Experience/>
                     <Projects/>
-                    <Languages/>
                     <Interests/>
                 </div>
             </main>
